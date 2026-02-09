@@ -5,7 +5,7 @@ project:
 
 
 website:
-  title: "Modelación Ambiental en Guatemala"
+  title: "Iarna"
   navbar:
     left:
       - href: index.qmd
