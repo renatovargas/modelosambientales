@@ -11,6 +11,12 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Modelación económico-ambiental"
+        href: 01_modelacion_economico_ambiental.qmd
 
 format:
   html:

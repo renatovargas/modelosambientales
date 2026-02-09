@@ -1,3 +1,17 @@
+---
+title: "Modelación económico-ambiental para el desarrollo sostenible: el caso de Guatemala"
+author: "Renato Vargas"
+
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    css: styles.css
+
+bibliography: references.bib
+---
+
+
 # Modelación Económico-Ambiental para el Desarrollo Sostenible: El Caso de Guatemala
 
 ## Introducción
@@ -10,7 +24,7 @@ Las herramientas tradicionales de análisis económico no están diseñadas para
 
 Este capítulo presenta un enfoque diferente: la **modelación económico-ambiental integrada**. Este método combina modelos económicos con datos ambientales para analizar cómo las decisiones económicas y las dinámicas ambientales se influyen mutuamente a través del tiempo. En términos sencillos, estos modelos nos permiten simular los efectos en cadena de diferentes políticas—como inversiones en infraestructura, programas de conservación, o cambios en precios agrícolas—sobre tanto la economía (producción, empleo, ingresos) como el ambiente (cobertura forestal, emisiones de carbono, disponibilidad de agua).
 
-A lo largo de más de una década, hemos desarrollado y aplicado estos modelos para analizar preguntas críticas de política pública en Guatemala y la región centroamericana. Nuestro trabajo ha explorado desde el impacto económico del uso ineficiente de leña y sus efectos sobre la salud y los bosques [@banerjee2017], hasta las conexiones entre agua, saneamiento y productividad económica [@banerjee2019], pasando por los efectos del cambio climático y la sequía sobre la agricultura [@vargas2018climate]. También hemos analizado estrategias de descarbonización en Costa Rica [@banerjee2024], los riesgos de puntos de inflexión ambiental en la Amazonía [@banerjee2022], y la valoración de servicios ecosistémicos en programas de conservación en México [@banerjee2025]. Los resultados han revelado patrones contraintuitivos y trade-offs que no son evidentes con métodos convencionales.
+A lo largo de más de una década, hemos desarrollado y aplicado estos modelos para analizar preguntas críticas de política pública en Guatemala y la región centroamericana. Nuestro trabajo ha explorado desde el impacto económico del uso ineficiente de leña y sus efectos sobre la salud y los bosques [@banerjee_seea-based_2019], hasta las conexiones entre agua, saneamiento y productividad económica [@banerjee_evaluating_2019], pasando por los efectos del cambio climático y la sequía sobre la agricultura [@vargas2018climate]. También hemos analizado estrategias de descarbonización en Costa Rica [@banerjee_economics_2024], los riesgos de puntos de inflexión ambiental en la Amazonía [@banerjee_can_2022], y la valoración de servicios ecosistémicos en programas de conservación en México [@banerjee_integrating_2025]. Los resultados han revelado patrones contraintuitivos y trade-offs que no son evidentes con métodos convencionales.
 
 Este capítulo está organizado en cuatro secciones principales. Primero, explicamos qué son los modelos económico-ambientales integrados y por qué son necesarios para entender el desarrollo sostenible. Segundo, presentamos las principales aplicaciones de estos modelos en Guatemala y la región, enfocándonos en las preguntas de política que hemos investigado y los hallazgos clave. Tercero, discutimos las implicaciones para las políticas de desarrollo sostenible, destacando tanto las oportunidades como los desafíos. Finalmente, reflexionamos sobre las limitaciones de estos enfoques y las direcciones futuras de investigación.
 
@@ -84,7 +98,7 @@ Estos números pueden parecer pequeños en términos porcentuales, pero traducid
 
 Los Objetivos de Desarrollo Sostenible (ODS) adoptados por Naciones Unidas en 2015 establecen 17 objetivos interconectados que van desde erradicar la pobreza hasta combatir el cambio climático. Pero ¿cómo interactúan estos objetivos en la práctica? ¿Existen sinergias donde el progreso en un objetivo facilita el avance en otros? ¿O hay tensiones donde perseguir un objetivo dificulta alcanzar otros?
 
-En @banerjee2019, aplicamos la plataforma IEEM para analizar las conexiones entre el ODS 6 (Agua Limpia y Saneamiento), el ODS 2 (Hambre Cero), y el ODS 8 (Trabajo Decente y Crecimiento Económico) en Guatemala. Este análisis fue particularmente relevante porque estos tres objetivos compiten por recursos escasos—especialmente agua—pero también pueden reforzarse mutuamente si se gestionan inteligentemente.
+En @banerjee_evaluating_2019, aplicamos la plataforma IEEM para analizar las conexiones entre el ODS 6 (Agua Limpia y Saneamiento), el ODS 2 (Hambre Cero), y el ODS 8 (Trabajo Decente y Crecimiento Económico) en Guatemala. Este análisis fue particularmente relevante porque estos tres objetivos compiten por recursos escasos—especialmente agua—pero también pueden reforzarse mutuamente si se gestionan inteligentemente.
 
 **Modelando las conexiones**: Construimos escenarios de política que representaban diferentes estrategias para alcanzar estos ODS. Un escenario enfatizaba la expansión agrícola para mejorar la seguridad alimentaria (ODS 2), lo que generaba crecimiento económico (ODS 8) pero aumentaba la extracción de agua y potencialmente degradaba la calidad del agua (tensión con ODS 6). Otro escenario priorizaba inversiones en agua potable y saneamiento (ODS 6), lo que mejoraba la salud y la productividad laboral, generando co-beneficios para el crecimiento económico (ODS 8).
 
@@ -114,7 +128,7 @@ Críticamente, el análisis demostró que el costo de no actuar—en términos d
 
 ### Lecciones regionales: Descarbonización en Costa Rica
 
-Aunque nuestro trabajo se ha enfocado principalmente en Guatemala, también hemos analizado experiencias en países vecinos que ofrecen lecciones valiosas. Costa Rica, en particular, ha sido pionera en políticas ambientales progresistas en Centroamérica. En @banerjee2024, evaluamos la estrategia de descarbonización de Costa Rica para el sector AFOLU (Agricultura, Silvicultura y Otros Usos de la Tierra)—sectores responsables de aproximadamente 40% de las emisiones nacionales del país.
+Aunque nuestro trabajo se ha enfocado principalmente en Guatemala, también hemos analizado experiencias en países vecinos que ofrecen lecciones valiosas. Costa Rica, en particular, ha sido pionera en políticas ambientales progresistas en Centroamérica. En @banerjee_economics_2024, evaluamos la estrategia de descarbonización de Costa Rica para el sector AFOLU (Agricultura, Silvicultura y Otros Usos de la Tierra)—sectores responsables de aproximadamente 40% de las emisiones nacionales del país.
 
 **Opciones de mitigación y sus co-beneficios**: Costa Rica se comprometió a alcanzar emisiones netas cero para 2050 y necesitaba identificar las opciones más costo-efectivas para el sector AFOLU. Evaluamos diversos instrumentos: impuestos al carbono, incentivos para reforestación y restauración de tierras degradadas, inversiones en agricultura sostenible y ganadería baja en carbono, y protección de bosques existentes.
 
@@ -128,7 +142,7 @@ El análisis también demostró que los instrumentos de mercado (como impuestos 
 
 ### Puntos de inflexión ambientales: Lecciones de la Amazonía
 
-Guatemala no es la Amazonía, pero nuestro trabajo regional [@banerjee2022] sobre los costos económicos de un "punto de inflexión" (tipping point) ambiental ofrece lecciones importantes sobre riesgos que también aplican a Guatemala. Un punto de inflexión es un umbral más allá del cual un sistema ambiental experimenta cambios abruptos y potencialmente irreversibles.
+Guatemala no es la Amazonía, pero nuestro trabajo regional [@banerjee_can_2022] sobre los costos económicos de un "punto de inflexión" (tipping point) ambiental ofrece lecciones importantes sobre riesgos que también aplican a Guatemala. Un punto de inflexión es un umbral más allá del cual un sistema ambiental experimenta cambios abruptos y potencialmente irreversibles.
 
 **El riesgo amazónico**: La Amazonía transporta humedad desde el Atlántico hacia el interior del continente a través de un proceso conocido como "ríos voladores"—la evapotranspiración del bosque que alimenta lluvias en regiones distantes. Científicos han advertido que si la deforestación amazónica supera cierto umbral (estimado entre 20-25% del área original), el sistema podría colapsar: menos bosque significa menos evapotranspiración, lo que reduce la precipitación, lo que hace más difícil que el bosque se regenere, acelerando aún más la pérdida forestal. Este círculo vicioso podría transformar partes de la Amazonía en sabana o pastizales en décadas.
 
@@ -140,7 +154,7 @@ La lección es aplicar un "principio de precaución" en áreas ecológicamente c
 
 ### Valoración de servicios ecosistémicos: La experiencia mexicana
 
-Nuestro trabajo más reciente en México [@banerjee2025] demostró cómo integrar la valoración monetaria de servicios ecosistémicos a nivel de cuenca con análisis macroeconómico para evaluar programas de conservación. México ha invertido significativamente en Pago por Servicios Ambientales (PSA) y programas de restauración ecológica, pero históricamente estas inversiones se han justificado principalmente con argumentos ambientales. ¿Generan estos programas retornos económicos que justifiquen la inversión pública?
+Nuestro trabajo más reciente en México [@banerjee_integrating_2025] demostró cómo integrar la valoración monetaria de servicios ecosistémicos a nivel de cuenca con análisis macroeconómico para evaluar programas de conservación. México ha invertido significativamente en Pago por Servicios Ambientales (PSA) y programas de restauración ecológica, pero históricamente estas inversiones se han justificado principalmente con argumentos ambientales. ¿Generan estos programas retornos económicos que justifiquen la inversión pública?
 
 **Metodología integrada**: Desarrollamos un enfoque que combina tres niveles de análisis: (1) valoración biofísica—cuantificando cómo la conservación y restauración afectan la provisión de servicios ecosistémicos como regulación hídrica, control de erosión, recreación y turismo; (2) valoración monetaria—traduciendo estos cambios biofísicos en valores económicos usando métodos de valoración establecidos; y (3) análisis macroeconómico—incorporando estos valores en las cuentas nacionales y modelos CGE para evaluar los impactos sobre el PIB, empleo, y bienestar agregado.
 
@@ -158,7 +172,7 @@ Por ejemplo, proteger los bosques nubosos en las tierras altas del occidente no 
 
 A través de estas aplicaciones diversas en Guatemala y la región, emergen varios patrones consistentes:
 
-1. **Las conexiones economía-ambiente son fundamentales, no secundarias**: Ignorar estas conexiones lleva a políticas mal diseñadas con consecuencias no intencionadas. El uso ineficiente de leña no solo causa deforestación; también genera costos masivos de salud que reducen la productividad económica [@banerjee2017]. Las políticas de seguridad alimentaria que ignoran recursos hídricos pueden ser contraproducentes [@banerjee2019]. Las estrategias de desarrollo que no consideran el cambio climático están condenadas al fracaso [@vargas2018climate].
+1. **Las conexiones economía-ambiente son fundamentales, no secundarias**: Ignorar estas conexiones lleva a políticas mal diseñadas con consecuencias no intencionadas. El uso ineficiente de leña no solo causa deforestación; también genera costos masivos de salud que reducen la productividad económica [@banerjee2017]. Las políticas de seguridad alimentaria que ignoran recursos hídricos pueden ser contraproducentes [@banerjee_evaluating_2019]. Las estrategias de desarrollo que no consideran el cambio climático están condenadas al fracaso [@vargas2018climate].
 
 2. **Los co-beneficios son la norma, no la excepción**: Prácticamente todas las políticas ambientales bien diseñadas que hemos analizado generan múltiples dividendos económicos. Estufas eficientes mejoran salud y conservan bosques. Agua limpia aumenta productividad y reduce pobreza. Agricultura sostenible reduce emisiones y aumenta ingresos. Estos co-beneficios a menudo justifican las políticas incluso antes de considerar los beneficios ambientales directos.
 
@@ -166,9 +180,9 @@ A través de estas aplicaciones diversas en Guatemala y la región, emergen vari
 
 4. **El largo plazo es radicalmente diferente del corto plazo**: Muchas políticas ambientales tienen costos en el corto plazo pero generan beneficios sustanciales en el largo plazo. La conservación puede frenar cierto crecimiento inmediato pero asegurar la sostenibilidad a décadas. Los análisis de corto plazo sistemáticamente sub-valoran las políticas de sostenibilidad.
 
-5. **Los puntos de inflexión son riesgos reales**: Ciertos umbrales de degradación ambiental pueden tener consecuencias desproporcionadas y potencialmente irreversibles [@banerjee2022]. Esto justifica un enfoque precautorio en áreas ecológicamente críticas.
+5. **Los puntos de inflexión son riesgos reales**: Ciertos umbrales de degradación ambiental pueden tener consecuencias desproporcionadas y potencialmente irreversibles [@banerjee_can_2022]. Esto justifica un enfoque precautorio en áreas ecológicamente críticas.
 
-6. **Las experiencias regionales ofrecen lecciones valiosas**: Guatemala puede aprender de países vecinos. Costa Rica demuestra que la descarbonización puede ser compatible con el desarrollo económico [@banerjee2024]. México muestra que los programas de conservación pueden generar retornos económicos positivos [@banerjee2025]. La colaboración y aprendizaje regional son esenciales.
+6. **Las experiencias regionales ofrecen lecciones valiosas**: Guatemala puede aprender de países vecinos. Costa Rica demuestra que la descarbonización puede ser compatible con el desarrollo económico [@banerjee_economics_2024]. México muestra que los programas de conservación pueden generar retornos económicos positivos [@banerjee_integrating_2025]. La colaboración y aprendizaje regional son esenciales.
 
 En la siguiente sección, traducimos estos hallazgos en implicaciones concretas para las políticas de desarrollo sostenible en Guatemala.
 
@@ -192,7 +206,7 @@ Simulamos un escenario de política que promueve estufas mejoradas con mayor efi
 
 Estos números pueden parecer pequeños en términos porcentuales, pero traducidos a la economía real de Guatemala, representan cientos de millones de dólares en valor presente neto. Más importante aún, demuestran que las inversiones en eficiencia energética y salud no son "lujos ambientales" que compiten con el desarrollo económico—son inversiones productivas que generan retornos económicos directos además de beneficios ambientales.
 
-**Agua, salud y productividad**: Un patrón similar emergió en nuestro análisis de los Objetivos de Desarrollo Sostenible relacionados con agua limpia y saneamiento [@banerjee2019]. Mejorar el acceso a agua segura para beber y saneamiento básico genera co-beneficios significativos en salud y productividad laboral (capital humano). Los hogares que no deben preocuparse por enfermedades transmitidas por agua pueden dedicar más tiempo al trabajo productivo y a la educación.
+**Agua, salud y productividad**: Un patrón similar emergió en nuestro análisis de los Objetivos de Desarrollo Sostenible relacionados con agua limpia y saneamiento [@banerjee_evaluating_2019]. Mejorar el acceso a agua segura para beber y saneamiento básico genera co-beneficios significativos en salud y productividad laboral (capital humano). Los hogares que no deben preocuparse por enfermedades transmitidas por agua pueden dedicar más tiempo al trabajo productivo y a la educación.
 
 Este trabajo también reveló sinergias importantes entre diferentes ODS. Las políticas que mejoran la seguridad alimentaria (ODS 2: Hambre Cero) pueden generar presión sobre los recursos hídricos si se basan en expansión agrícola con riego. Pero si se diseñan cuidadosamente—por ejemplo, priorizando cultivos con menor requerimiento hídrico o mejorando la eficiencia del riego—pueden ser compatibles con el ODS 6 (Agua Limpia y Saneamiento). La clave es planificar de forma integrada, no en silos sectoriales.
 
@@ -200,7 +214,7 @@ Este trabajo también reveló sinergias importantes entre diferentes ODS. Las po
 
 Este análisis subraya la urgencia de desarrollar un marco regulatorio adecuado para la distribución de agua entre diferentes categorías de usuarios, combinado con inversiones en infraestructura de almacenamiento y tecnologías de ahorro de agua. El costo de no actuar—en términos de pérdidas económicas futuras—excede por mucho el costo de las inversiones necesarias.
 
-**Lecciones de la Amazonía**: Aunque Guatemala no es la Amazonía, nuestro trabajo regional [@banerjee2022] sobre los costos económicos de un "punto de inflexión" ambiental (tipping point) ofrece lecciones relevantes. Ese estudio modeló las consecuencias económicas de la pérdida irreversible del ecosistema amazónico, mostrando cómo la deforestación extrema puede reducir la precipitación regional (por pérdida del transporte de humedad) con impactos en la productividad agrícola de toda la región.
+**Lecciones de la Amazonía**: Aunque Guatemala no es la Amazonía, nuestro trabajo regional [@banerjee_can_2022] sobre los costos económicos de un "punto de inflexión" ambiental (tipping point) ofrece lecciones relevantes. Ese estudio modeló las consecuencias económicas de la pérdida irreversible del ecosistema amazónico, mostrando cómo la deforestación extrema puede reducir la precipitación regional (por pérdida del transporte de humedad) con impactos en la productividad agrícola de toda la región.
 
 Para Guatemala, la lección es clara: ciertos umbrales de degradación pueden tener consecuencias no lineales y potencialmente irreversibles. Una vez que se pierde cierta masa crítica de bosque, los efectos sobre el clima local, el ciclo hidrológico y la productividad agrícola pueden ser desproporcionadamente severos. Esto justifica aplicar un "principio de precaución" en áreas ecológicamente críticas como las cuencas altas que alimentan sistemas hídricos importantes.
 
@@ -208,7 +222,7 @@ Para Guatemala, la lección es clara: ciertos umbrales de degradación pueden te
 
 Una implicación central de nuestro trabajo es que las políticas ambientales bien diseñadas no son un costo neto para la economía—generan **múltiples dividendos** o co-beneficios que a menudo exceden los costos de implementación.
 
-**El caso costarricense**: Nuestro análisis más reciente de la estrategia de descarbonización de Costa Rica en el sector AFOLU [@banerjee2024] ofrece lecciones directas para Guatemala. Costa Rica se comprometió a alcanzar emisiones netas cero para 2050 y necesitaba identificar las opciones más costo-efectivas para reducir emisiones en agricultura, silvicultura y otros usos de la tierra—sectores responsables de aproximadamente 40% de sus emisiones nacionales.
+**El caso costarricense**: Nuestro análisis más reciente de la estrategia de descarbonización de Costa Rica en el sector AFOLU [@banerjee_economics_2024] ofrece lecciones directas para Guatemala. Costa Rica se comprometió a alcanzar emisiones netas cero para 2050 y necesitaba identificar las opciones más costo-efectivas para reducir emisiones en agricultura, silvicultura y otros usos de la tierra—sectores responsables de aproximadamente 40% de sus emisiones nacionales.
 
 Evaluamos diversos instrumentos de política: impuestos al carbono, incentivos para reforestación y restauración de tierras degradadas, inversiones en agricultura sostenible y ganaría baja en carbono. Los resultados mostraron que:
 
@@ -220,7 +234,7 @@ Evaluamos diversos instrumentos de política: impuestos al carbono, incentivos p
 
 Para Guatemala, con una estructura económica y un sector AFOLU similar a Costa Rica, estas lecciones son directamente aplicables. Una estrategia de descarbonización bien diseñada no requiere sacrificar el desarrollo rural; puede fortalecerlo si se enfoca en opciones que generen co-beneficios económicos y ambientales.
 
-**Programas de conservación con retorno económico**: El trabajo en México [@banerjee2025] demostró cómo integrar la valoración monetaria de servicios ecosistémicos a nivel de cuenca con análisis macroeconómico para evaluar programas de conservación como Pago por Servicios Ambientales (PSA) y restauración ecológica. El estudio mostró un retorno positivo a la inversión pública: los beneficios económicos de los servicios ecosistémicos mejorados (regulación hídrica, control de erosión, recreación) excedieron los costos de los programas de conservación cuando se contabilizaron en el PIB y la riqueza nacional proyectada.
+**Programas de conservación con retorno económico**: El trabajo en México [@banerjee_integrating_2025] demostró cómo integrar la valoración monetaria de servicios ecosistémicos a nivel de cuenca con análisis macroeconómico para evaluar programas de conservación como Pago por Servicios Ambientales (PSA) y restauración ecológica. El estudio mostró un retorno positivo a la inversión pública: los beneficios económicos de los servicios ecosistémicos mejorados (regulación hídrica, control de erosión, recreación) excedieron los costos de los programas de conservación cuando se contabilizaron en el PIB y la riqueza nacional proyectada.
 
 Este enfoque metodológico es directamente replicable en Guatemala. El país ya tiene experiencias con PSA en algunas cuencas (por ejemplo, los programas de PINFOR y PROBOSQUE). Pero estas evaluaciones han sido limitadas en alcance. Una evaluación económica integral—que capture tanto los beneficios directos para los participantes como los beneficios indirectos para usuarios de agua, agricultura y otros sectores—podría demostrar que escalar estos programas es económicamente justificable, no solo ambientalmente deseable.
 
@@ -232,7 +246,7 @@ Este enfoque metodológico es directamente replicable en Guatemala. El país ya 
 
 1. **Eficiencia energética en hogares rurales**: Escalar dramáticamente los programas de estufas mejoradas, combinados con fuentes alternativas de energía (solar, biogás). Los co-beneficios en salud, productividad y conservación forestal justifican inversiones públicas sustanciales [@banerjee2017].
 
-2. **Gestión integrada de recursos hídricos**: Desarrollar un marco regulatorio claro para la distribución de agua entre usos (doméstico, agrícola, industrial, ambiental), combinado con inversiones en infraestructura de almacenamiento y tecnologías de eficiencia. El cambio climático hace esto urgente [@vargas2018climate; @banerjee2019].
+2. **Gestión integrada de recursos hídricos**: Desarrollar un marco regulatorio claro para la distribución de agua entre usos (doméstico, agrícola, industrial, ambiental), combinado con inversiones en infraestructura de almacenamiento y tecnologías de eficiencia. El cambio climático hace esto urgente [@vargas2018climate; @banerjee_evaluating_2019].
 
 3. **Intensificación sostenible de la agricultura**: Romper el vínculo entre crecimiento agrícola y expansión de la frontera mediante inversiones en productividad—riego eficiente, variedades mejoradas, prácticas de conservación de suelos, agroforestería. Esto requiere revitalizar los sistemas de investigación y extensión agrícola, históricamente debilitados en Guatemala.
 
@@ -240,7 +254,7 @@ Este enfoque metodológico es directamente replicable en Guatemala. El país ya 
 
 5. **Infraestructura sostenible**: Evaluar todas las inversiones mayores en infraestructura (carreteras, hidroeléctricas, expansión urbana) con criterios ambientales explícitos. Algunas inversiones pueden justificarse plenamente; otras pueden requerir modificaciones de diseño para minimizar impactos; algunas pueden no ser justificables cuando se contabilizan todos los costos.
 
-6. **Descarbonización del sector AFOLU**: Desarrollar una estrategia comprehensiva inspirada en el modelo costarricense [@banerjee2024]—combinando reforestación, restauración de tierras degradadas, agricultura y ganadería baja en carbono, y protección de bosques existentes. Esto no solo contribuye a compromisos climáticos internacionales; genera co-beneficios locales tangibles.
+6. **Descarbonización del sector AFOLU**: Desarrollar una estrategia comprehensiva inspirada en el modelo costarricense [@banerjee_economics_2024]—combinando reforestación, restauración de tierras degradadas, agricultura y ganadería baja en carbono, y protección de bosques existentes. Esto no solo contribuye a compromisos climáticos internacionales; genera co-beneficios locales tangibles.
 
 **La importancia de la secuencia y el ritmo**: No todas estas políticas pueden implementarse simultáneamente con máxima intensidad. Los recursos fiscales son limitados, la capacidad institucional toma tiempo en construirse, y las transiciones demasiado rápidas pueden generar resistencia social. La modelación puede ayudar a identificar secuencias óptimas—qué políticas implementar primero para generar co-beneficios que faciliten políticas posteriores.
 
@@ -288,19 +302,19 @@ En Guatemala, donde aproximadamente la mitad de la población es indígena y don
 
 **Servicios ecosistémicos más allá del carbono**: Nuestro trabajo ha enfatizado el carbono forestal porque es relativamente fácil de medir y valorar económicamente. Pero los bosques y otros ecosistemas proveen servicios mucho más diversos: regulación hídrica, control de erosión, polinización, control de plagas, regulación de clima local, valores culturales y recreativos. Los modelos futuros deben incorporar estos servicios más comprehensivamente.
 
-Particularmente crítico para Guatemala es profundizar el análisis de recursos hídricos. Nuestro trabajo [@vargas2018climate; @banerjee2019] ha comenzado a explorar estas conexiones, pero se requiere mucho más. Modelos hidrológicos espacialmente explícitos que capturen cómo los cambios en uso de suelo afectan la disponibilidad y calidad del agua, integrados con modelos económicos que representan los múltiples usos competitivos del agua (doméstico, agrícola, industrial, ambiental), son una prioridad urgente dado el estrés hídrico creciente que enfrenta el país.
+Particularmente crítico para Guatemala es profundizar el análisis de recursos hídricos. Nuestro trabajo [@vargas2018climate; @banerjee_evaluating_2019] ha comenzado a explorar estas conexiones, pero se requiere mucho más. Modelos hidrológicos espacialmente explícitos que capturen cómo los cambios en uso de suelo afectan la disponibilidad y calidad del agua, integrados con modelos económicos que representan los múltiples usos competitivos del agua (doméstico, agrícola, industrial, ambiental), son una prioridad urgente dado el estrés hídrico creciente que enfrenta el país.
 
 **Incertidumbre y riesgo**: Nuestros modelos típicamente proyectan un futuro "esperado" bajo diferentes escenarios de política. Pero el futuro es inherentemente incierto—en precios globales de commodities, en la severidad del cambio climático, en decisiones políticas futuras. Análisis más sofisticados deben caracterizar explícitamente esta incertidumbre y evaluar políticas en términos de su robustez—qué tan bien funcionan bajo múltiples futuros posibles—no solo su desempeño esperado.
 
-Relacionado con esto, los riesgos de "puntos de inflexión" o cambios abruptos y potencialmente irreversibles en sistemas ambientales [@banerjee2022] merecen mayor atención. ¿Existen umbrales críticos de deforestación en cuencas específicas más allá de los cuales la disponibilidad de agua colapsa? ¿Hay niveles de degradación de suelos donde la productividad agrícola cae irreversiblemente? Identificar y evitar estos umbrales debe ser una prioridad de investigación.
+Relacionado con esto, los riesgos de "puntos de inflexión" o cambios abruptos y potencialmente irreversibles en sistemas ambientales [@banerjee_can_2022] merecen mayor atención. ¿Existen umbrales críticos de deforestación en cuencas específicas más allá de los cuales la disponibilidad de agua colapsa? ¿Hay niveles de degradación de suelos donde la productividad agrícola cae irreversiblemente? Identificar y evitar estos umbrales debe ser una prioridad de investigación.
 
 **Integración con planificación nacional**: Un desafío persistente es cómo integrar estos análisis técnicos con los procesos reales de toma de decisiones. Los modelos económico-ambientales integrados pueden informar decisiones, pero no las toman. Para que este trabajo tenga impacto real, debe conectarse con los procesos de planificación nacional—planes de desarrollo quinquenales, estrategias sectoriales, presupuestos públicos, evaluaciones de proyectos de inversión.
 
 Guatemala ha hecho esfuerzos notables en esta dirección, particularmente a través del trabajo del Instituto de Agricultura, Recursos Naturales y Ambiente (IARNA) de la Universidad Rafael Landívar, que ha sido pionero en el desarrollo de cuentas ambientales y su integración con políticas. Pero se requiere una institucionalización más profunda—capacidades técnicas dentro de ministerios clave, mandatos legales para considerar factores ambientales en decisiones económicas, y mecanismos de coordinación interinstitucional que rompan los silos sectoriales.
 
-**Aprendiendo de experiencias regionales**: Centroamérica es un laboratorio natural para estudiar desarrollo sostenible. Los países de la región comparten desafíos similares—alta dependencia de recursos naturales, vulnerabilidad climática, tensiones entre crecimiento económico y conservación—pero han seguido trayectorias de política diferentes. Costa Rica ha priorizado la conservación y el ecoturismo [@banerjee2024]; El Salvador ha enfatizado la intensificación agrícola en un territorio pequeño; Nicaragua ha mantenido tasas altas de deforestación asociadas a expansión ganadera.
+**Aprendiendo de experiencias regionales**: Centroamérica es un laboratorio natural para estudiar desarrollo sostenible. Los países de la región comparten desafíos similares—alta dependencia de recursos naturales, vulnerabilidad climática, tensiones entre crecimiento económico y conservación—pero han seguido trayectorias de política diferentes. Costa Rica ha priorizado la conservación y el ecoturismo [@banerjee_economics_2024]; El Salvador ha enfatizado la intensificación agrícola en un territorio pequeño; Nicaragua ha mantenido tasas altas de deforestación asociadas a expansión ganadera.
 
-Análisis comparativos sistemáticos—aplicando marcos metodológicos consistentes a través de países—pueden generar lecciones valiosas sobre qué políticas funcionan, en qué contextos, y por qué. Nuestro trabajo ha comenzado este esfuerzo [@banerjee2024], pero hay mucho espacio para expandirlo.
+Análisis comparativos sistemáticos—aplicando marcos metodológicos consistentes a través de países—pueden generar lecciones valiosas sobre qué políticas funcionan, en qué contextos, y por qué. Nuestro trabajo ha comenzado este esfuerzo [@banerjee_economics_2024], pero hay mucho espacio para expandirlo.
 
 **Cambio climático como amenaza multiplicadora**: El cambio climático no es solo una cuestión ambiental; es un multiplicador de amenazas que exacerba prácticamente todos los desafíos de desarrollo que Guatemala enfrenta [@vargas2018climate]. Sequías más frecuentes e intensas amenazarán la seguridad alimentaria y los recursos hídricos. Huracanes más intensos causarán más daños a infraestructura. Cambios en patrones de precipitación afectarán la productividad agrícola y la hidroelectricidad.
 
