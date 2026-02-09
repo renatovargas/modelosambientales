@@ -1,5 +1,8 @@
 project:
   type: website
+  output-dir: docs
+  execute-dir: project
+
 
 website:
   title: "Modelación Ambiental en Guatemala"

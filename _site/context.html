@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>context – Modelación Ambiental en Guatemala</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c78d814eed26a74be727ee35b6a76a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Modelación Ambiental en Guatemala</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<p>Bosquejo Anotado de Temas M.Sc. Renato Vargas (Economista / Consultor) Instituto de Investigación en Ciencias Naturales y Tecnología IARNA</p>
+<ol type="1">
+<li>Introducción (1 página) Experiencia relevante en modelación económico-ambiental Las cuentas ambientales de Guatemala hicieron posible la existencia del marco de modelación de equilibrio general IEEM por su alcance, al cubrir todos los aspectos del Marco Central del Sistema de Contabilidad Ambiental y Económica Integrado (SEEA). El marco IEEM se desarrolló para integrar los datos de las Cuentas Económico-Ambientales (SEEA) con modelos de Equilibrio General Computable (CGE) para un análisis ex-ante cuantitativo, integral de políticas económicas y ambientales, consistente con el Sistema de Cuentas Nacionales. [1] El IEEM se presenta como una de las plataformas de modelado que integra datos de Capital Natural y Servicios Ecosistémicos (ES) con modelos CGE para informar la toma de decisiones económicas y ambientales post-2020 (revisión de ODS, CDB, Acuerdo de París). [3] Contexto guatemalteco La aplicación ilustrativa del modelo IEEM se calibró con las cuentas ambientales de Guatemala para analizar el sector de bosques y leña, un área crítica donde el uso ineficiente de leña genera impactos negativos en la salud y el medio ambiente. [1] Guatemala priorizó los ODS 2 (Hambre Cero) y ODS 6 (Agua Limpia y Saneamiento), y el marco IEEM se utilizó para evaluar las sinergias y trade-offs en la consecución de estos objetivos en su momento. [2]</li>
+<li>Lecciones Clave de Modelación IEEM (3 páginas) El marco IEEM ha demostrado su capacidad analítica a través de diversas aplicaciones en países en desarrollo y contextos globales, superando las limitaciones de los modelos macroeconómicos tradicionales al integrar explícitamente el Capital Natural y los Servicios Ecosistémicos: Guatemala: Se utilizó para analizar el sector de bosques y leña, mostrando cómo las mejoras en la eficiencia del uso de leña generan co-beneficios significativos en la salud y la productividad laboral de los hogares rurales [1]. También se aplicó para evaluar las sinergias y trade-offs de políticas en la consecución de los Objetivos de Desarrollo Sostenible (ODS) de Hambre Cero y Agua Limpia [2]. También ha sido usado para simular los efectos de la sequía y un descenso en la productividad agrícola a causa del cambio climático en Guatemala, demostrando que los efectos más importantes se darán en la agricultura por su alto uso de agua. Hacer énfasis en que como resultado, Guatemala necesita un marco regulatorio adecuado para la distribución de agua entre las diferentes categorías de usuarios [7]. Costa Rica: El modelo se aplicó para diseñar y evaluar políticas complejas de descarbonización (net-zero) en el crucial sector de Uso de la Tierra, Agricultura y Silvicultura (AFOLU), identificando las opciones más costo-efectivas para la mitigación climática [5]. México: La aplicación mexicana permitió evaluar el impacto en el Producto Interno Bruto (PIB) y la Riqueza total de programas de conservación enfocados en pago por servicios ambientales y restauración al integrar la valoración monetaria de servicios ecosistémicos a nivel de cuenca con el análisis económico nacional [6]. Estudio regional (Amazonas): Se empleó para modelar las consecuencias económicas de un punto de inflexión ambiental (tipping point), cuantificando los costos globales y sectoriales, en términos de PIB, comercio y riqueza nacional, de la pérdida irreversible del ecosistema amazónico [4]. Protocolos de construcción de matrices de contabilidad social con dimensión ambiental El protocolo de modelación implica la construcción de una Tabla de Oferta y Utilización con Extensión Ambiental (EE SUT) y una Matriz de Contabilidad Social con Extensión Ambiental (ESAM) para capturar las interrelaciones bidireccionales entre la economía y el medio ambiente como fuente de recursos y como sumidero de residuos. [1] Los marcos ambientalmente extendidos constituyen un avance sobre los modelos CGE tradicionales al vincular los activos ambientales con el bienestar, lo que permite la evaluación de impacto económico ex-ante de políticas relacionadas con los ODS. [2] Los marcos de análisis ambientalmente extendidos permiten vincular los resultados biofísicos de modelos de Cambio de Uso del Suelo (LULC) y de ES a la estructura macroeconómica del CGE de abajo hacia arriba o de arriba hacia abajo, es decir, influyendo el punto de partida de la modelación económica a partir de cambios biofísicos o influyendo los cambios biofísicos a partir de resultados econónmicos [3] Plataformas como IEEM abordan la necesidad de ir más allá del PIB, generando indicadores de impacto que incluyen la evolución de la Riqueza total (Capital Natural, Humano, Manufacturado y Social) como una medida más integral del desarrollo sostenible. [3] Manejo de datos limitados - lecciones para Guatemala El desarrollo de la base de datos de Guatemala requirió un enfoque de clasificación de identificadores ad-hoc para conciliar datos económicos y ambientales de diversas fuentes que presentaban inconsistencias. [1] Marcos de modelación ambientalmente extendidos como IEEM deben ser flexibles para incorporar los activos naturales faltantes o no monitoreados por las cuentas ambientales (como el capital hídrico o las reservas de recursos vivos) utilizando datos de fuentes externas para la calibración del modelo. [2]</li>
+<li>Análisis de Costo de Inacción (3 páginas) Metodologías probadas para cuantificar degradación ambiental IEEM es el primer marco de análisis económico ex-ante que estima el impacto de las políticas en la riqueza nacional, midiendo cómo el agotamiento y la degradación de la base de recursos afectan las perspectivas de crecimiento futuro. [1] IEEM puede cuantificar el “Costo de la Inacción” (COI) al demostrar la diferencia en la Riqueza o el bienestar total entre un escenario de políticas sostenibles y un escenario en que se continúa con la conducta habitual (business as usual) que conduce a la degradación. [3] El marco IEEM se aplicó para cuantificar los efectos macroeconómicos y sectoriales de un punto de inflexión ambiental (tipping point), mostrando cómo la pérdida irreversible de un ecosistema crucial como la Amazonía puede impactar el PIB, el comercio y la riqueza nacional. [4] El sistema de modelación IEEM se utilizó para evaluar el impacto de los programas de conservación en términos de PIB y riqueza total proyectada, mostrando un retorno a la inversión para los programas públicos. [6] Experiencia con valoración de servicios ecosistémicos El estudio de caso en México integra la valoración monetaria de cambios en Servicios Ecosistémicos clave (ej. regulación de agua, recreación) a nivel de cuenca con los resultados del modelo CGE, permitiendo medir el impacto total de las políticas de conservación en la Riqueza nacional. [6] Aplicación al caso guatemalteco: órdenes de magnitud y sectores críticos Los resultados de las simulaciones en Guatemala mostraron que la mejora en la eficiencia del uso de leña, vinculada a los beneficios en la salud, tuvo un impacto significativo y positivo en la productividad de la mano de obra, especialmente en los hogares rurales pobres. [1] • El bienestar de los hogares (aproximado por el consumo) mostró un impacto positivo del orden de 0.20% en el escenario de mayor eficiencia en el uso de leña. • En un escenario de eficiencia en el uso de leña combinado con mejoras en la salud, se proyectó un impacto positivo amplificado en sectores críticos como cereales (+0.28%) y ganadería (0.19%) en su valor de producción, en comparación con el escenario base. • El modelo mostró el co-beneficio ambiental en la riqueza natural: la aplicación de la política ayudó a mitigar la pérdida del activo forestal, con el potencial de evitar la pérdida de hasta medio millón de hectáreas de bosque en comparación con el escenario de inacción durante el período de análisis.</li>
+<li>Escenarios de Transición Aplicables (3 páginas) Diseño de escenarios basado en trabajo previo con energía de leña y ODS Se diseñaron escenarios de política que vinculan la mayor eficiencia en el consumo de leña por parte de los hogares con las mejoras en la salud y la productividad laboral de los miembros del hogar. [1] Adaptación de parámetros de estrés hídrico e impactos sectoriales, pérdida de servicios ecosistémicos críticos, descarbonización y matriz energética y la identificación de sectores más vulnerables (Identificación de co-beneficios y trade-offs) La modelación de escenarios que mejoran el acceso al agua segura para beber y saneamiento en Guatemala muestra co-beneficios significativos en la salud y la productividad laboral (capital humano). [2] El modelo demostró la conexión entre la deforestación y la reducción de la precipitación (transporte de humedad) y su impacto en la productividad agrícola y de otros sectores clave, ilustrando la interdependencia económica (ejemplo del Amazonas). [4] La aplicación en Costa Rica evalúa los efectos macroeconómicos de diversos instrumentos de política (ej. impuestos al carbono, incentivos) necesarios para reducir las emisiones en el sector AFOLU, identificando las opciones más costo-efectivas. [5] Se ilustró que las políticas de mitigación de carbono que promueven la restauración de tierras y la silvicultura sostenible pueden generar co-beneficios importantes en la provisión de servicios ecosistémicos como la regulación hídrica. [5] La estrategia de eficiencia en el uso de leña en Guatemala genera co-beneficios importantes, como la reducción de la deforestación y de las emisiones de gases de efecto invernadero (GEI), lo que contribuye a un mayor ingreso de los hogares y a un mayor bienestar general. [1]</li>
+<li>Recomendaciones para Guatemala (2 páginas) Prioridades de política basadas en evidencia comparada La experiencia de Costa Rica en la descarbonización del sector AFOLU, al ser un país con una estructura económica y natural comparable en Centroamérica, ofrece lecciones directas sobre los costos y beneficios de una transición verde. [5] El estudio en México demuestra un enfoque metodológico para cuantificar la efectividad de los programas de conservación (ej. Pago por Servicios Ambientales, restauración) sobre la economía, la Riqueza y el Capital Natural, un modelo replicable para evaluar las políticas guatemaltecas. [6] Protocolo mínimo viable para futuras modelaciones IEEM utiliza cuentas satélite separadas para rastrear los stocks de recursos (ej. forestales, extractivos) y el uso de la tierra en unidades físicas y monetarias, lo cual es una característica modular clave que complementa el marco central de las CGE. [1] Advertencias metodológicas y datos críticos necesarios Para una modelación más completa, se pueden integrar datos de fuentes externas para llenar lagunas en las cuentas, como la necesidad de incluir datos sobre los activos pesqueros que no estaban disponibles en las cuentas ambientales de Guatemala en ese momento. [1]</li>
+</ol>
+<p>Referencias:</p>
+<p>[1] The SEEA-Based Integrated Economic-Environmental Modelling Framework: An Illustration with Guatemala’s Forest and Fuelwood Sector (8349.pdf / banerjee2017.pdf) [2] Evaluating synergies and trade-offs in achieving the SDGs of zero hunger and clean water and sanitation: An application of the IEEM Platform to Guatemala (banerjee2019.pdf) [3] Global socio-economic impacts of changes in natural capital and ecosystem services: State of play and new modeling approaches (banerjee2020.pdf) [4] Can we avert an Amazon tipping point? The economic and environmental costs (Banerjee_2022_Environ._Res._Lett._17_125005.pdf) [5] The Economics of Decarbonizing Costa Rica’s Agriculture, Forestry and Other Land Uses Sectors (Banerjee et al, 2024, The Economics of Decarbonizing Costa Rica’s Agriculture, Forestry and Other Land Uses Sectors.pdf) [6] Integrating Quantitative Macroeconomic and Ecosystem Service Modeling Methods to Assess Conservation Programs in Mexico (Banerjee et al 2025, Integrating Quantitative Macroeconomic and ES Modeling Methods to Assess Conservation Programs.pdf) [7] Vargas, R., Cabrera, M., Cicowiez, M., Escobar, P., Hernández, V., Cabrera, J., &amp; Guzmán, V. (2018). Climate risk and food availability in Guatemala.&nbsp;Environment and Development Economics,&nbsp;23(5), 558–579. doi:10.1017/S1355770X18000335</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
