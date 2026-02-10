@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Acerca de"
 ---
 
-About this site
+Este sitio ha sido creado para llevar registro de la contribución de Renato Vargas sobre modelación ambiental.
